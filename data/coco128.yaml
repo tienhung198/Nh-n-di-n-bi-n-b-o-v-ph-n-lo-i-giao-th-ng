@@ -1,0 +1,59 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+ # dataset root dir
+train: E:\DH\DOAN\DoAnNDDT1\yolov5\data\trafficsign\images # train images (relative to 'path') 128 images
+val: E:\DH\DOAN\DoAnNDDT1\yolov5\data\trafficsign\images # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  1: 'Toc đo gioi han (20km/h)'
+  2: 'Toc đo gioi han (30km/h)'
+  3: 'Toc đo gioi han (50km/h)'
+  4: 'Toc đo gioi han (60km/h)'
+  5: 'Toc đo gioi han (70km/h)'
+  6: 'Toc đo gioi han (80km/h)'
+  7: 'Het Toc đo gioi han (80km/h)'
+  8: 'Toc đo gioi han (100km/h)'
+  9: 'Toc đo gioi han (120km/h)'
+  10: 'Khong đuoc vuot'
+  11: 'Cam vuot xe tren 3.5 tan'
+  12: 'Uu tien di tai nga tu'
+  13: 'Duong uu tien'
+  14: 'Giam toc đo'
+  15: 'Dung lai'
+  16: 'Cam xe'
+  17: 'Cam xe tren 3.5 tan'
+  18: 'Cam di vao'
+  19: 'Canh bao'
+  20: 'Duong cua nguy hiem ben trai'
+  21: 'Duong cua nguy hiem ben phai'
+  22: 'Duong cua kep'
+  23: 'Duong xau'
+  24: 'Duong tron truot'
+  25: 'Duong hep ben phai'
+  26: 'Duong dang thi cong'
+  27: 'Tin hieu giao thong'
+  28: 'Nguoi di bo'
+  29: 'Tre em bang qua duong'
+  30: 'Xe dap bang qua duong'
+  31: 'Chu y duong dong bang'
+  32: 'Dong vat hoang da bang qua'
+  33: 'Het han che toc đo va vuot'
+  34: 'Re phai phia truoc'
+  35: 'Re trai phia truoc'
+  36: 'Chi di thang'
+  37: 'Di thang hoac re phai'
+  38: 'Di thang hoac re trai'
+  39: 'Giu ben phai'
+  40: 'Giu ben trai'
+  41: 'Di vong xuyen bat buoc'
+  42: 'Het cam vuot'
+  43: 'Het cam vuot xe tren 3.5 tan'

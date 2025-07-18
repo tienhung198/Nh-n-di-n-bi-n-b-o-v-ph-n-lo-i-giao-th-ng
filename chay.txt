@@ -1,0 +1,17 @@
+detect:
+python detect.py --source 0 --weights runs\train\exp3\weights\last.pt # webcam
+                          img.jpg  # image
+                          vid.mp4  # video
+                          screen  # screenshot
+                          path/  # directory
+python detect.py --weights runs\train\exp3\weights\last.pt --img 640 --conf 0.7 --source data/trafficsign/test/images
+train:
+python train.py --img 640 --batch 4 --epochs 50 --data data.yaml --weights yolov5s.pt --cache --device 0
+
+
+lỗi:
+nếu xuất hiện lỗi OSError: [WinError 1455] The paging file is too small for this operation to complete.
+đổi dòng 244 trong đường dẫn C:\Program Files\Python310\Lib\site-packages\torch\utils\data\dataloader.py 
+self.num_workers = num_workers -> self.num_workers = 2
+
+truy cập môi trường ảo : venv\Scripts\activate
