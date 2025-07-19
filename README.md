@@ -129,6 +129,4 @@ project/
 
 ## 📬 Liên hệ
 
-> Nhóm phát triển: [Tên các thành viên nếu có]  
-> Trường/Đơn vị: [Tên trường hoặc khoa]  
-> Email: [Email liên hệ nếu cần]
+> Email: hungtvt218@gmail.com
