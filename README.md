@@ -106,16 +106,16 @@ pip install -r requirements.txt
 ```
 project/
 │
-├── data/
-│   ├── train/
-│   ├── test/
-│   └── valid/
+|──yolov5
+|  |── data/
+│      ├── train/
+│      ├── test/
+│      └── valid/
 │
-├── yolov5/
-├── runs/
-├── data.yaml
-├── GUI.py
-└── README.md
+|  |── runs/
+|  |── data.yaml
+|  |── GUI.py
+└───── README.md
 ```
 
 3. Huấn luyện mô hình hoặc sử dụng trọng số có sẵn để phát hiện.
